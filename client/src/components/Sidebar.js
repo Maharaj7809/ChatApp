@@ -43,7 +43,7 @@ function Sidebar({roomID}) {
     });
 
     function getRooms() {
-        fetch("http://localhost:5001/rooms")
+        fetch("https://chat-j8f5.onrender.com/rooms")
             .then((res) => res.json())
             .then((data) => setRooms(data));
     }
