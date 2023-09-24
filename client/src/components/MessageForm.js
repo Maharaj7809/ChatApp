@@ -68,10 +68,10 @@ function MessageForm() {
                         </div>
                     </>
                 )}
-        {icl?<div  style={{ marginTop:'63px'}}><AI/></div>:''}
+    
                 {!user && <div className="alert alert-danger">Please login</div>}
-
-                {user &&
+   {icl? (<div  style={{ marginTop:'63px'}}><AI/></div>) : (
+                user &&
                     messages.map(({ _id: date, messagesByDate }, idx) => (
                         <div key={idx}>
                             <p className="alert alert-info text-center message-date-indicator">{date}</p>
@@ -89,7 +89,7 @@ function MessageForm() {
                                 </div>
                             ))}
                         </div>
-                    ))}
+                  )) )}
                 <div ref={messageEndRef} />
             </div>
             <Form onSubmit={handleSubmit}>
