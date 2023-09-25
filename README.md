@@ -27,7 +27,8 @@ login and register
 video call
 ![image](https://github.com/Maharaj7809/Chat-App/assets/134138887/596e9975-bd71-43b2-8803-ded86b2077c5)
 AI chatbot
-![image](https://github.com/Maharaj7809/Chat-App/assets/134138887/492752a9-08a2-4069-85d6-73a21be2f769)
+![image](https://github.com/Maharaj7809/Chat-App/assets/134138887/dfec126b-1fca-4a5e-9c43-30323044bd86)
+
 
 
 How to use
