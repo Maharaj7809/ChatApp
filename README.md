@@ -32,12 +32,10 @@ AI chatbot
 
 
 How to use
-You can have this application up and running with just a few steps because it has both the frontend and the backend in a single repository. Follow the steps below to do so.
+1.Clone this Repo.Once you have the Repo,you need to install its dependencies.
+2.Using a terminal ,move into the root directory of project and execute npm i.
+3.Move to client directory cd client and type npm start.
 
-Clone this repo
-Once you have the repo, you need to install its dependencies. So using a terminal, move into the root directory of the project and execute npm install to install the dependencies of the Node.js server and then run npm run client-install to install the dependencies of the frontend. The second command is a custom command that I wrote to simplify the installation process.
-This application uses MongoDB as its Database. So make sure you have it installed. You can find detailed guides on how to do so here. Once installed, make sure that your local MongoDB server is not protected by any kind of authentication. If there is authentication involved, make sure you edit the mongoURI in the config/keys.js file.
-Finally, all you have to do is simply run npm run dev. If this command fails, try installing the package concurrently globally by running npm install -g concurrently and then running the dev command.
 The frontend of the application will be automatically opened in your web browser and you can test it away.
 Things to note
 The frontend is created using create-react-app
