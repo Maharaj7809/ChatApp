@@ -39,7 +39,8 @@ How to use
 The frontend of the application will be automatically opened in your web browser and you can test it away.
 Things to note
 The frontend is created using create-react-app
-Database connections in the backend are handled using the Mongoose ORM
+Database connections in the backend are handled using the Mongoose 
+
 
 
 
