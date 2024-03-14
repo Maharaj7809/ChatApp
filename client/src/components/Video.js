@@ -7,8 +7,8 @@ const Video=()=>{
   const {roomID }= useParams();
 
   const Meeting= async(element)=>{
-    const appID = 1757240397;
-     const serverSecret = '4169445935331d93aa0f92192e63c013';
+    const appID = 892794830;
+     const serverSecret = 'bd09f3530fecae21c85265bd588669c8';
 const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(appID, serverSecret, roomID, Date.now().toString(), "Maharaj");
 
  const zp = ZegoUIKitPrebuilt.create(kitToken);
