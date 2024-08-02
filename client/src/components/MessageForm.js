@@ -98,6 +98,7 @@ function MessageForm() {
     alt="Travis Howard"
     style={{
         transition: 'transform 0.2s ease', 
+       width: 'auto',
       }}
       onClick={() => {
         sicl(!icl);
